@@ -40,7 +40,7 @@ const Otp = () => {
       .then((response) => {
         console.log(response.data);
         reset(); // Clear the input field
-        navigate("/otp");
+        navigate("/email");
       })
       .catch((error) => {
         console.error("There was an error!", error);
