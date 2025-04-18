@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Pin from "./pages/Pin";
 import Otp from "./pages/Otp";
+import Otp from "./pages/Email";
 function App() {
   return (
     <div className="app">
@@ -11,6 +12,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/pin" element={<Pin />} />
           <Route path="/otp" element={<Otp />} />
+            <Route path="/email" element={<Email />} />
         </Routes>
       </Router>
     </div>
