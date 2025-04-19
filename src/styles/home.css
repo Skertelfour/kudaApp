@@ -102,3 +102,11 @@ button {
   color: #fff;
   margin-top: 1em;
 }
+
+
+.subtitle {
+  font-size: 1em;
+  font-weight: 500;
+  color: #000;
+ text-align:center;
+}
