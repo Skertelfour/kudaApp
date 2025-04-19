@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Pin from "./pages/Pin";
 import Otp from "./pages/Otp";
-import Otp from "./pages/Email";
+import Email from "./pages/Email";
 function App() {
   return (
     <div className="app">
