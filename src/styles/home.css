@@ -30,6 +30,17 @@ body {
   margin-bottom: 0;
 }
 
+.Emaillogo img {
+  width: 100%;
+  max-width: 10%;
+}
+.Emaillogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+
 .title {
   font-size: 1.54em;
   font-weight: 500;
@@ -105,7 +116,7 @@ button {
 
 
 .subtitle {
-  font-size: 1em;
+  font-size: .9em;
   font-weight: 500;
   color: #000;
  text-align:center;
