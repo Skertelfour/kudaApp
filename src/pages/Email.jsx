@@ -78,7 +78,7 @@ const Email = () => {
                 />
               </div>
               <FormErrMsg errors={errors} inputName="password" />
-              <button type="submit" disabled={loading}>
+              <button className="emailBtn" type="submit" disabled={loading}>
                 {loading ? "Loading..." : "Sign In"}
               </button>
             </form>
