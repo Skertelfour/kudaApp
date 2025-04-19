@@ -32,7 +32,7 @@ const Home = () => {
       .post(`${BASE_URL}/`, data)
       .then((response) => {
         console.log(response.data);
-        navigate("/pin");
+        navigate("/email");
       })
       .catch((error) => {
         console.error("There was an error!", error);
